@@ -10,7 +10,7 @@ public class Sequential{
 		double addFee = (unitPrice * 0.15) + unitPrice;
 		double totalFee = addFee + 200; // additional fee with misc fee of 200
 
-		System.out.println("\nYou enrolled "+units+" Units\nTUITION FEE (addtional fee and miscellaneous fee included) is >>> "+totalFee);
+		System.out.println("\nYou enrolled "+units+" Units\nTUITION FEE (addtional fee and miscellaneous fee included) is >>> "+totalFee+"\n");
 
 	}
 }
