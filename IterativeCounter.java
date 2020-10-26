@@ -23,8 +23,10 @@ public class IterativeCounter{
 				sum += grade; // adds all grades
 			}
 
-			System.out.println("The average is "+sum / (float)n);
-			System.out.println("The GWA is "+sumGwa / (float)sumUnit);
+			// System.out.println("The average is "+sum / (float)n);
+			System.out.printf("The average is %.2f\n", sum / (float)n);
+			// System.out.println("The GWA is "+sumGwa / (float)sumUnit);
+			System.out.printf("The GWA is is %.2f\n", sumGwa / (float)sumUnit);
 
 			if(sum / (float)n < 3.0){
 				System.out.println("\nSorry you failed\n");

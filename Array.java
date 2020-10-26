@@ -17,14 +17,14 @@ public class Array{
 				peopleCtr++;
 			}
         }
-		System.out.println("\n========================================="); //breaker
+		System.out.println("\n=========================================");
 		// salary display
         for (int i = 0 ; i < data.length; i++ ) {
         	totalPay = 200 + (data[i] * 0.09);
     		// System.out.println("Worker "+i+" earned "+totalPay);
-          System.out.printf("\nWorker ["+i+ "] earned %.2f",totalPay);
+          	System.out.printf("\nWorker ["+i+ "] earned %.2f",totalPay);
         	}
-       		System.out.println("\nThe number of people having a salary greater than 500 is  "+peopleCtr);
+       		System.out.println("\n\nThe number of people having a salary greater than 500 is "+peopleCtr+"\n");
 
 	}
 }
